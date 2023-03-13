@@ -20,7 +20,7 @@ const Todo = () => {
     const newList = todolist.filter((x,y) => y!==id);
     setTodoList(newList);
   };
-  // console.log("edit state:"+edit);
+  console.log("edit state:"+edit);
 
   const editHandler = (id) => {
     setValue(todolist[id]);
